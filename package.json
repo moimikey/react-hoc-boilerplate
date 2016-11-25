@@ -1,52 +1,63 @@
 {
-  "name": "PACKAGE_NAME",
+  "name": "react-hoc-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "My personal react HOC boilerplate",
   "main": "index.js",
-  "preferGlobal": false,
   "author": "Michael Scott Hertzberg <mshertzberg@gmail.com> (http://hertzber.gs/)",
   "license": "MIT",
-  "bin": {
-    "PACKAGE_NAME": "cli.js"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/moimikey/PACKAGE_NAME.git"
+    "url": "https://github.com/moimikey/react-hoc-boilerplate.git"
   },
   "bugs": {
-    "url": "https://github.com/moimikey/PACKAGE_NAME/issues"
+    "url": "https://github.com/moimikey/react-hoc-boilerplate/issues"
   },
-  "homepage": "https://github.com/moimikey/PACKAGE_NAME",
+  "homepage": "https://github.com/moimikey/react-hoc-boilerplate",
   "keywords": [
-    ""
+    "react",
+    "component",
+    "hoc",
+    "boilerplate"
   ],
+  "browser": {
+    "fs": false
+  },
   "scripts": {
     "build": "babel --compact --ignore *.spec.js -d lib src",
-    "clean": "rimraf .eslintcache {lib,build}/**/*.{js,log}",
-    "lint": "eslint --cache src benchmark",
+    "clean": "rimraf .eslintcache lib/**/*.{js,log}",
+    "lint": "eslint --cache src",
     "prebuild": "npm-run-all --sequential lint clean",
-    "prepublishOnly": "npm-run-all --sequential test build",
+    "prepublish": "npm-run-all --sequential test build",
     "test": "babel-tap --bail --no-color --reporter=tap src/**/*.spec.js",
     "test:dev": "babel-tap --bail src/**/*.spec.js",
     "test:watch": "nodemon -w src --exec npm run test:dev"
   },
   "devDependencies": {
     "babel-cli": "6.18.0",
-    "babel-eslint": "7.0.0",
-    "babel-plugin-transform-runtime": "6.15.0",
+    "babel-eslint": "7.1.1",
     "babel-preset-latest": "6.16.0",
+    "babel-preset-react": "6.16.0",
     "babel-preset-stage-0": "6.16.0",
     "babel-tap": "5.0.0",
-    "capture-stream": "0.1.2",
-    "eslint": "3.8.1",
-    "eslint-plugin-babel": "3.3.0",
+    "enzyme": "2.6.0",
+    "eslint": "3.10.2",
+    "eslint-plugin-babel": "4.0.0",
+    "eslint-plugin-react": "6.7.1",
     "nodemon": "1.11.0",
     "npm-run-all": "3.1.1",
+    "react-addons-test-utils": "15.4.1",
+    "recompose": "0.20.2",
     "rimraf": "2.5.4",
-    "tap": "8.0.0",
+    "tap": "8.0.1",
+    "change-emitter": "0.1.2",
+    "eventemitter2": "2.2.1",
+    "global": "4.3.1",
+    "react": "15.4.1",
+    "react-dom": "15.4.1",
     "typeov": "1.2.4"
   },
-  "dependencies": {
-    "babel-runtime": "6.18.0"
+  "dependencies": {},
+  "peerDependencies": {
+    "react": "^0.14.0 || ^15.0.0-0"
   }
 }

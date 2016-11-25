@@ -1,15 +1,21 @@
-# 🦄 [![Build Status][travis-image]][travis-url]
-[![Version][npm-version-image]][npm-version-url] [![License][npm-license-image]][npm-license-url] [![Downloads][npm-downloads-image]][npm-downloads-url] [![Deps][npm-deps-image]][npm-deps-url] [![DevDeps][npm-devdeps-image]][npm-devdeps-url]
+# 🦄 react-hoc-boilerplate [![Build Status][travis-image]][travis-url]
+[![Version][npm-version-image]][npm-version-url] [![Downloads][npm-downloads-image]][npm-downloads-url] [![Deps][npm-deps-image]][npm-deps-url] [![DevDeps][npm-devdeps-image]][npm-devdeps-url]
 
-[npm-version-url]: https://www.npmjs.com/package/PACKAGE_NAME
-[npm-version-image]: https://img.shields.io/npm/v/PACKAGE_NAME.svg
-[npm-license-url]: https://github.com/moimikey/PACKAGE_NAME/blob/master/LICENSE
-[npm-license-image]: https://img.shields.io/npm/l/PACKAGE_NAME.svg
-[npm-downloads-url]: https://www.npmjs.com/package/PACKAGE_NAME
-[npm-downloads-image]: https://img.shields.io/npm/dm/PACKAGE_NAME.svg
-[npm-deps-url]: https://david-dm.org/moimikey/PACKAGE_NAME
-[npm-deps-image]: https://img.shields.io/david/moimikey/PACKAGE_NAME.svg
-[npm-devdeps-url]: https://david-dm.org/moimikey/PACKAGE_NAME
-[npm-devdeps-image]: https://img.shields.io/david/dev/moimikey/PACKAGE_NAME.svg
-[travis-url]: https://travis-ci.org/moimikey/PACKAGE_NAME
-[travis-image]: https://travis-ci.org/moimikey/PACKAGE_NAME.svg?branch=master
+This is a personal boilerplate for Higher Order Components in React. There
+are two approaches: 1) using recompose; 2) not using recompose. Simple enough.
+
+# License
+[![License][npm-license-image]][npm-license-url]
+
+[npm-version-url]: https://www.npmjs.com/package/react-hoc-boilerplate
+[npm-version-image]: https://img.shields.io/npm/v/react-hoc-boilerplate.svg
+[npm-license-url]: https://github.com/moimikey/react-hoc-boilerplate/blob/master/LICENSE
+[npm-license-image]: https://img.shields.io/npm/l/react-hoc-boilerplate.svg
+[npm-downloads-url]: https://www.npmjs.com/package/react-hoc-boilerplate
+[npm-downloads-image]: https://img.shields.io/npm/dm/react-hoc-boilerplate.svg
+[npm-deps-url]: https://david-dm.org/moimikey/react-hoc-boilerplate
+[npm-deps-image]: https://img.shields.io/david/moimikey/react-hoc-boilerplate.svg
+[npm-devdeps-url]: https://david-dm.org/moimikey/react-hoc-boilerplate
+[npm-devdeps-image]: https://img.shields.io/david/dev/moimikey/react-hoc-boilerplate.svg
+[travis-url]: https://travis-ci.org/moimikey/react-hoc-boilerplate
+[travis-image]: https://travis-ci.org/moimikey/react-hoc-boilerplate.svg?branch=master
