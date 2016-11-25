@@ -5,12 +5,12 @@ This is a personal boilerplate for Higher Order Components in React. There
 are two approaches: 1) using recompose; 2) not using recompose. Simple enough.
 
 # License
-[![License][npm-license-image]][npm-license-url]
+[![License][git-license-image]][git-license-url]
 
+[git-license-url]: https://github.com/moimikey/react-hoc-boilerplate/blob/master/LICENSE
+[git-license-image]: https://img.shields.io/github/license/moimikey/react-hoc-boilerplate.svg
 [npm-version-url]: https://www.npmjs.com/package/react-hoc-boilerplate
 [npm-version-image]: https://img.shields.io/npm/v/react-hoc-boilerplate.svg
-[npm-license-url]: https://github.com/moimikey/react-hoc-boilerplate/blob/master/LICENSE
-[npm-license-image]: https://img.shields.io/npm/l/react-hoc-boilerplate.svg
 [npm-downloads-url]: https://www.npmjs.com/package/react-hoc-boilerplate
 [npm-downloads-image]: https://img.shields.io/npm/dm/react-hoc-boilerplate.svg
 [npm-deps-url]: https://david-dm.org/moimikey/react-hoc-boilerplate
