@@ -1,4 +1,6 @@
 # 🦄 react-hoc-boilerplate [![Build Status][travis-image]][travis-url]
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/moimikey/react-hoc-boilerplate.svg)](https://greenkeeper.io/)
 [![Deps][npm-deps-image]][npm-deps-url] [![DevDeps][npm-devdeps-image]][npm-devdeps-url]
 
 This is a personal boilerplate for Higher Order Components in React. There
